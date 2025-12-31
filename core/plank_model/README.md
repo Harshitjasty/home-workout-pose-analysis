@@ -1,4 +1,4 @@
-<h2 align="center">BICEP CURL MODEL TRAINING PROCESS</h2>
+<h2 align="center">PLANK MODEL TRAINING PROCESS</h2>
 
 ### 1. Folder structure
 
@@ -27,6 +27,3 @@ There are 3 popular errors of basic plank that will be targeted in this thesis:
 
 In my research and exploration, **_the important MediaPipe Pose landmarks_** for this exercise are: nose, left shoulder, right shoulder, right elbow, left elbow, right wrist, left wrist, right hip, left hip, right knee, left knee, right ankle, left ankle, right heel, left heel, right foot index and left foot index
 
-### 3. Error detection method
-
-Machine learning will be used the errors of this exercise. See this [notebook](./4.evaluation.ipynb) for a evaluation process for this model.

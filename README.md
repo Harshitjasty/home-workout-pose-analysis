@@ -1,9 +1,7 @@
 <div id="top"></div>
-
-<!-- PROJECT LOGO -->
 <br />
 
-  <h2 align="center">home-workout-pose-analysis</h2>
+  <h1 align="center">Home Workout Pose Analysis and Feedback</h1>
 
   <p align="center">
     Make use of the power of Mediapipe’s pose detection, this project is built in order to analyze, detect and classifying the forms of fitness exercises.
@@ -90,13 +88,13 @@ As the introduction indicated, there are 2 purposes for this project.
 1. Model training **(describe in depth [here](core/README.md))**. Below are the evaluation results for each models.
 
     - [Bicep Curl](core/bicep_model/README.md) - _lean back error_: Confusion Matrix - ROC curve
-      | <img align="center" alt="Bicep Curl evaluation" src="images/bicep_curl_eval.png" /> | <img align="center" alt="NgoQuocBao's Top Languages" src="images/bicep_curl_eval_2.png" /> |
+      | <img align="center" alt="Bicep Curl evaluation" src="bicep_confusion_matrix.png" /> | <img align="center" src="images/bicep_curl_eval_2.png" /> |
       | ------------- | ------------- |
     - [Plank](core/plank_model/README.md) - _all errors_: Confusion Matrix - ROC curve
-      | <img align="center" alt="Plank evaluation" src="images/plank_eval.png" /> | <img align="center" alt="NgoQuocBao's Top Languages" src="images/plank_eval_2.png" /> |
+      | <img align="center" alt="Plank evaluation" src="plank_confusion_matrix.png" /> | <img align="center" src="images/plank_eval_2.png" /> |
       | ------------- | ------------- |
     - [Basic Squat](core/squat_model/README.md) - _stage_: Confusion Matrix - ROC curve
-      | <img align="center" alt="Squat evaluation" src="images/squat_eval.png" /> | <img align="center" alt="NgoQuocBao's Top Languages" src="images/squat_eval_2.png" /> |
+      | <img align="center" alt="Squat evaluation" src="squat_confusion_matrix.png" /> | <img align="center" src="images/squat_eval_2.png" /> |
       | ------------- | ------------- |
 
 1. Website for exercise detection. This web is for demonstration purpose of all the trained models, therefore, at the moment there are only 1 main features: Analyzing and giving feedbacks on user's exercise video.
@@ -104,23 +102,6 @@ As the introduction indicated, there are 2 purposes for this project.
  <p align="center"><img src="images/web_2.png" alt="Logo" width="70%"></p>
  <p align="center"><img src="images/web_3.png" alt="Logo" width="70%"></p>
  <p align="center"><img src="images/web_4.png" alt="Logo" width="70%"></p>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -151,6 +132,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 

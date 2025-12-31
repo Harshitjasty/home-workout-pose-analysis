@@ -33,4 +33,4 @@ In my research and exploration, **_the important MediaPipe Pose landmarks_** for
 
 1. **Weak peak contraction**: Can be detected by calculating the angle between the wrist, elbow and shoulder when the performer’s arm is coming up. Through my research, if the angle is more than 60 degrees before the arm comes down, the movement will be classified as a “weak peak contraction” error.
 
-1. **Lean too far back**: Due to its complexity, machine learning will be used for this detection. See this [notebook](./4.evaluation.ipynb) for a evaluation process for this model.
+1. **Lean too far back**: Due to its complexity, machine learning will be used for this detection.

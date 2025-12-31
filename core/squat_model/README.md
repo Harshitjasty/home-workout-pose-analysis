@@ -1,9 +1,9 @@
-<h2 align="center">BICEP CURL MODEL TRAINING PROCESS</h2>
+<h2 align="center">SQUAT MODEL TRAINING PROCESS</h2>
 
 ### 1. Folder structure
 
 ```
-bicep_model
+squat_model
 │   1.counter_model.ipynb - train models using Sklearn ML algo and evaluate the models results
 |   2.analyzed_bad_pose.ipynb - analyze feet and knee position in correct squat exercise
 │   3.detection.ipynb - detection on test videos
@@ -27,7 +27,7 @@ In my research and exploration, **_the important MediaPipe Pose landmarks_** for
 
 ### 3. Stage detection
 
-In contrast with other exercises, there are 2 stages when performing squat, “up” and “down” stage. Because it is important for error detection to discriminate stage of the squat, a model is trained for this task. See this [notebook](./1.counter_model.ipynb) for a evaluation process for this model.
+In contrast with other exercises, there are 2 stages when performing squat, “up” and “down” stage. Because it is important for error detection to discriminate stage of the squat, a model is trained for this task.
 
 ### 3. Error detection method
 
