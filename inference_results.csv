@@ -1,0 +1,10 @@
+Exercise,video,left_reps,right_reps,left_errors,right_errors,most_frequent_state
+Bicep,01502df8-593c-42d0-86ae-7cbd48d8741a.mp4,1.0,0.0,"{'LOOSE_UPPER_ARM': 0, 'PEAK_CONTRACTION': 0}","{'LOOSE_UPPER_ARM': 0, 'PEAK_CONTRACTION': 0}",
+Bicep,0244565c-a9cc-4775-9011-1f62d67dbd4c.mp4,0.0,0.0,"{'LOOSE_UPPER_ARM': 0, 'PEAK_CONTRACTION': 0}","{'LOOSE_UPPER_ARM': 0, 'PEAK_CONTRACTION': 0}",
+Bicep,053483c5-05f0-4196-935d-9215435ea6a7.mp4,1.0,1.0,"{'LOOSE_UPPER_ARM': 0, 'PEAK_CONTRACTION': 0}","{'LOOSE_UPPER_ARM': 0, 'PEAK_CONTRACTION': 0}",
+Plank,001a3533-4b19-457e-8c3b-92f200aee41e.mp4,,,,,Correct
+Plank,016f7e3a-b250-49a8-b7bd-bf5e65f5e3eb.mp4,,,,,Low back
+Plank,02679c82-8cd6-4c76-8a57-a59f68c00e4d.mp4,,,,,Correct
+Squat,02ab9b9c-3340-4d1b-b391-706c6bc5d27c.mp4,,,,,down
+Squat,02e89a5c-70ce-43bc-af8b-7026813fe79b.mp4,,,,,up
+Squat,0fa6a997-9eed-4313-b8ae-51376556eda3.mp4,,,,,down
