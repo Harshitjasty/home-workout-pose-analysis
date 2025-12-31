@@ -2,12 +2,8 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-    <a href="https://github.com/NgoQuocBao1010/Exercise-Correction">
-        <img src="./images/logo.png" alt="Logo" width="60%">
-    </a>
 
-  <h2 align="center">Exercise Pose Correction</h2>
+  <h2 align="center">home-workout-pose-analysis</h2>
 
   <p align="center">
     Make use of the power of Mediapipe’s pose detection, this project is built in order to analyze, detect and classifying the forms of fitness exercises.
@@ -18,7 +14,7 @@
 
 ## About The Project
 
-This project goal is to develop 3 machine learning models for 3 of the most home exercises **(Bicep Curl, Plank, and Squat)** which each model can detect any form of incorrect movement while a person is performing a correspond exercise. In addition, a web application that utilize the trained models, will be built in other to analyze and provide feedbacks on workout videos.
+An intelligent 2D pose estimation–based injury prevention system for home workouts. This project analyzes joint angles and movement patterns from video input to estimate joint stress, detect improper exercise form, and reduce the risk of musculoskeletal injuries using computer vision and rule-based biomechanical analysis.
 
 Here are some detections of the exercises:
 
@@ -53,11 +49,11 @@ Here are some detections of the exercises:
 
 ## Dataset
 
-Due to the lack of videos or dataset online that recorded human doing exercises both in a proper or improper way, the majority of self-collected videos were either recorded by myself, my friends or my family. The majority of the collected videos were removed due to privacy purpose.
+Due to the limited availability of publicly accessible datasets containing exercise videos that capture both correct and incorrect human movements, most of the data used in this project was self-collected. These videos were recorded by the author, as well as by friends and family members. However, a significant portion of this data was later removed to address privacy concerns.
 
-With an exercise such as Plank, as there is not much movement during the exercise, I’m able to find a dataset from an open database from [Kaggle](https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset). The found dataset is about many yoga poses but the very well-known ones are the downward dog pose, goddess pose, tree pose, plank pose and the warrior pose. The dataset contains 5 folders for 5 poses, each folder contains images of people correctly doing the correspond pose.
+For exercises such as the plank, which involve minimal movement, an existing dataset was identified from an open-source repository on Kaggle. This dataset primarily consists of various yoga poses, including downward dog, goddess, tree, plank, and warrior poses. It is organized into five folders, each containing images of individuals correctly performing the corresponding pose.
 
-For the purpose of this thesis, only the folder contains the images of people properly doing plank is chosen. There are 266 image files in that folder, I handpicked all the images that represent a basic plank and discard the reset. In conclusion, there are 30 images which are arranged to the proper form class for basic plank.
+For the scope of this work, only the folder containing plank pose images was utilized. The folder originally contained 266 images, from which only those representing a standard basic plank posture were manually selected, while the remaining images were discarded. As a result, a final set of 30 images was curated and labeled as the proper-form class for the basic plank exercise.
 
 ## Getting Started
 
@@ -77,21 +73,6 @@ This is an example of how you may give instructions on setting up the project lo
     ⚠️ Commands/Scripts for this project are wrote for Linux-based OS. They may not work on Windows machines.
 ```
 
-### Installation
-
-_If you only want to try the website, look [here](./web/README.md)._
-
-1. Clone the repo and change directory to that folder
-
-    ```sh
-    git clone https://github.com/NgoQuocBao1010/Exercise-Correction.git
-    ```
-
-1. Install all project dependencies
-
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 1. Folder **_[core](./core/README.md)_** is the code for data processing and model training.
 1. Folder **_[web](./web/README.md)_** is the code for website.
