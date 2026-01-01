@@ -8,8 +8,6 @@
   </p>
 </div>
 
-<!-- ABOUT THE PROJECT -->
-
 ## About The Project
 
 An intelligent 2D pose estimation–based injury prevention system for home workouts. This project analyzes joint angles and movement patterns from video input to estimate joint stress, detect improper exercise form, and reduce the risk of musculoskeletal injuries using computer vision and rule-based biomechanical analysis.
